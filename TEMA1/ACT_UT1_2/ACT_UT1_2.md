@@ -16,7 +16,7 @@ python3 blackjack.py
 
 ```
 
-![Captura de debug](/PYTHON/debug_python.png)
+![Captura de debug](PYTHON/debug_python.png)
 
 # Actividad 2: Ejecución y Pruebas de Aplicaciones en Go
 
