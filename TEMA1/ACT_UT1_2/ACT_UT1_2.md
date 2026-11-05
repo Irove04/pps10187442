@@ -28,4 +28,4 @@ Para compilar y ejecutar el programa:
 go run main.go
 
 ```
-![Captura de debug](GO/GO_debug.png)
+![Captura de debug](GO/go_debug.png)
