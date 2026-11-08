@@ -97,9 +97,98 @@ alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tu
 ```
 # EJERCICIO 4 BASH
 
-## 
+## La decimoprimera letra es la S por que falta en "stupid"
 
 ```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises$ cd exercise_4
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ diff ai.txt artificial_intelligence.txt 
+6c6
+< that they're too stupid
+---
+> that they're too tupid
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ 
+```
+## Decimosegunda letra es la P por que la ultima palabra es "parameters"
 
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ sort elephant.txt 
 
+and with five
+I can fit an elephant
+it will wiggle its trunk.
+(John von Neumann)
+With four parameters
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ 
+```
+
+## Decimotercera letra es la A por que la frase empieza por "a"
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ grep fire datascience.txt 
+a fire station
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_4$ 
+```
+
+# EJERCICIO 5 BASH
+
+## Decimocuarta letra es T y la decimoquinta es A
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises$ cd exercise_5
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_5$ unzip wrapped.zip 
+Archive:  wrapped.zip
+  inflating: wrapped.tar             
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_5$ tar -xf wrapped.tar 
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_5$ gunzip solution/solution.txt.gz 
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_5$ cat solution/solution.txt 
+
+Congratulations. You unwrapped everything.
+
+The 14th character is: 'T'
+
+The 15th character is: 'A'
+
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_5$ 
+```
+
+# EJERCICIO 6 BASH
+
+## Decimosexta letra es G y la decimoseptima es O
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises$ cd exercise_6/
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ chmod a+x permissions.sh
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ ./permissions.sh 
+character 16 is:
+G
+character 17 is:
+O
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ 
+```
+
+## Decimooctava letra es la N por que es la ultima letra del primer autor
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ df --version 
+df (GNU coreutils) 9.4
+Copyright © 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Escrito por Torbjörn Granlund, David MacKenzie, y Paul Eggert.
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ 
+```
+## Decimonovena letra es I por que es la novena letra del alfabeto
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ export GIVEME=SOLUTION
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ echo $GIVEME | wc -c
+9
+```
+
+## La vigesima letra es la C por que es la opcion de numero maximo de paquetes
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ man ping
 ```
