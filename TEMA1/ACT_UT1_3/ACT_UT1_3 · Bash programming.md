@@ -192,3 +192,32 @@ alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tu
 ```bash
 alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ man ping
 ```
+## La vigesimoprimera letra es U y la vigesimosegunda letras es S por que la segunda palabra de la cabecera es USUARIO
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ top
+
+%Cpu(s):  1,5 us,  0,6 sy,  0,0 ni, 97,2 id,  0,1 wa,  0,0 hi,  0,6 si,  0,0 st 
+MiB Mem :   5856,9 total,    216,0 libre,   2745,8 usado,   2623,6 búf/caché    
+MiB Intercambio:   4096,0 total,   4095,7 libre,      0,3 usado.   3111,1 dispon
+
+    PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU  %MEM     HORA+ ORDEN    
+   2458 alumno    20   0 5088440 482248 166412 S   5,6   8,0  25:13.04 gnome-s+ 
+   4228 alumno    20   0 3030320 356700 108136 S   3,0   5,9   4:46.32 Isolate+ 
+   4794 alumno    20   0  634480  58456  45796 S   1,7   1,0   0:15.84 gnome-t+ 
+   3096 alumno    20   0   19,9g 880972 292708 S   1,0  14,7  16:39.94 firefox  
+      1 root      20   0   23500  14736   9740 S   0,0   0,2   0:02.52 systemd  
+      2 root      20   0       0      0      0 S   0,0   0,0   0:00.01 kthreadd 
+      3 root      20   0       0      0      0 S   0,0   0,0   0:00.00 pool_wo+ 
+      4 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      5 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      6 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      7 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+      8 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+     10 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+     12 root      20   0       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+     13 root       0 -20       0      0      0 I   0,0   0,0   0:00.00 kworker+ 
+     14 root      20   0       0      0      0 S   0,0   0,0   0:00.06 ksoftir+ 
+     15 root      20   0       0      0      0 I   0,0   0,0   0:02.43 rcu_pre+ 
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ 
+```
