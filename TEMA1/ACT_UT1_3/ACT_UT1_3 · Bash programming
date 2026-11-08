@@ -1,0 +1,14 @@
+# ACT_UT1_3 Bash programming
+
+## 3.3 Script en Bash simple y Debug
+
+Para esta actividad, he creado un script básico, le he dado permisos de ejecución y he utilizado las herramientas de debug de Bash.
+
+**1. Creación del script:**
+```bash
+touch script1.sh
+nano script1.sh
+```
+
+
+**...**
