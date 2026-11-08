@@ -51,7 +51,21 @@ total 4
 
 # EJERCICIO 2 BASH
 
+## Quinta letra  
+
+```bash
+alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_2$ less solution_2.1.txt ^C 
+
+The fifth character of the solution is 'N'.
+
+
+Did you know:
+    The solution is usually well-dressed.
+```
+
+## Sexta letra
+
 ```bash
 
-
 ```
+
