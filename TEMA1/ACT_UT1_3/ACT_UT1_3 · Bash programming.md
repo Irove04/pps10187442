@@ -1,6 +1,6 @@
 # ACT_UT1_3 Bash programming
 
-## 3.3 Script en Bash simple y Debug
+# 3.3 Script en Bash simple y Debug
 
 Para esta actividad, he creado un script básico, le he dado permisos de ejecución y he utilizado las herramientas de debug de Bash.
 
@@ -10,7 +10,7 @@ touch script1.sh
 nano script1.sh
 ```
 
-## 3.4: Tutorial de Bash
+# 3.4: Tutorial de Bash
 
  Basado en el repositorio de [krother/bash_tutorial](https://github.com/krother/bash_tutorial).
 
@@ -221,3 +221,41 @@ MiB Intercambio:   4096,0 total,   4095,7 libre,      0,3 usado.   3111,1 dispon
      15 root      20   0       0      0      0 I   0,0   0,0   0:02.43 rcu_pre+ 
 alumno@pps10187442:~/Escritorio/pps-entregas/pps10187442/TEMA1/ACT_UT1_3/bash_tutorial/exercises/exercise_6$ 
 ```
+# 3.5 Analizar, ejecutar y verificar el funcionamiento del script LearnBash.sh
+
+Para ejecutar y probar el script:
+
+### 3.5.1 Dar permisos de ejecución:
+
+```bash
+chmod +x LearnBash.sh
+```
+### 3.5.2 Ejecutar el script:
+```bash
+./LearnBash.sh
+```
+
+### 3.5.3 Analizar el script:
+
+
+
+# 3.6. Evaluar los lenguajes de programación Go, Python y Bash a nivel de seguridad que
+proporcionan:
+
+### 1. Bash (Shell Scripting)
+* **Nivel de seguridad:** Bajo/Medio (depende de la configuración del entorno).
+* **Vulnerabilidades comunes:** Es altamente susceptible a **inyección de comandos**. Si las variables que provienen de un usuario no se entrecomillan o validan estrictamente, un atacante puede ejecutar código malicioso concatenando comandos (ej. `; rm -rf /`).
+* **Superficie de ataque:** Su comportamiento puede ser manipulado fácilmente alterando variables de entorno del sistema (como `$PATH` o `$IFS`). Además, al delegar casi todas las tareas a programas externos, hereda automáticamente las vulnerabilidades de los binarios instalados en el sistema operativo.
+
+### 2. Python
+* **Nivel de seguridad:** Medio/Alto.
+* **Vulnerabilidades comunes:** Inyección (SQL, NoSQL o de comandos si se usan librerías como `subprocess` de forma insegura) y vulnerabilidades de **deserialización** (el uso del módulo `pickle` con datos no confiables permite ejecución de código remoto).
+* **Gestión de memoria:** Es un lenguaje seguro en este aspecto. Su recolector de basura (*garbage collector*) gestiona la memoria automáticamente, eliminando vulnerabilidades clásicas de C/C++ como *Use-After-Free* o desbordamientos de búfer.
+* **Cadena de suministro:** Su mayor riesgo actual está en su ecosistema de dependencias (PyPI). Depender de bibliotecas de terceros introduce riesgos de paquetes maliciosos o vulnerables (ataques de *Typosquatting*).
+
+### 3. Go (Golang)
+* **Nivel de seguridad:** Alto.
+* **Diseño seguro por defecto:** Go fue diseñado para la concurrencia y el despliegue en servidores. Es fuertemente tipado y obliga a los desarrolladores a **manejar los errores explícitamente**, lo que reduce fallos imprevistos en producción.
+* **Gestión de memoria:** Al igual que Python, previene los desbordamientos de búfer mediante recolección de basura y un control estricto de los punteros (a menos que se use deliberadamente el paquete `unsafe`).
+* **Seguridad Web:** Su biblioteca estándar está pensada para la web moderna. Por ejemplo, el paquete `html/template` escapa automáticamente el texto para prevenir ataques XSS por defecto.
+* **Despliegue blindado:** Go compila el código en un **único archivo binario estático**. Esto reduce drásticamente la superficie de ataque, ya que la aplicación en producción no necesita un intérprete local ni depende de bibliotecas compartidas del sistema que puedan ser explotadas.
